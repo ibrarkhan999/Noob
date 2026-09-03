@@ -1,14 +1,21 @@
 import { StyleSheet, Text ,View} from 'react-native';
 import React from 'react';
 
-export default function New() {
+
+interface Bio {
+  name:string
+  age:number 
+  education:string
+}
+
+export default function New(bio:Bio) {
   return (
 
 <View style={styles.main}>
-  <Text style={styles.txt}>New</Text>
-  <Text style={styles.txt}>New</Text>
-  <Text style={styles.txt}>New</Text>
-  <Text style={styles.txt}>New</Text>
+  <Text style={styles.txt}>i am {bio.name}</Text>
+  <Text style={styles.txt}>i am {bio.age}yrs Old</Text>
+  <Text style={styles.txt}>i am {bio.education}</Text>
+
 </View>
 
   );
@@ -16,11 +23,15 @@ export default function New() {
 
 const styles = StyleSheet.create({
     main:{
-        backgroundColor:'yellow',
-        flex:1
+        backgroundColor:'aqua',
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center'
     },
     txt:{
         fontSize:30,
-        color:'black'
+        color:'black',
+        fontWeight:'500',
+        
     }
 });

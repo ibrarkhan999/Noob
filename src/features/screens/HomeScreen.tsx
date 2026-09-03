@@ -7,7 +7,7 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.safeArea}>
     <View style={styles.main}>
-      <New/>
+      <New name='ibrar khan' age={24} education='Graduated'/>
     </View>
     </SafeAreaView>
   )
