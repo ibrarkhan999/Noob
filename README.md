@@ -1,312 +1,394 @@
-# 🚀 React Native --- From Fundamentals to Full Control
+<div align="center">
 
-> A hands-on journey to rebuild my React Native foundation, strengthen
-> my fundamentals, and understand the complete application development
-> process from frontend to backend, testing, and system design.
+# 🚀 React Native — From Basics to Full Control
 
-## 🎯 Goal
+### A hands-on journey to strengthen fundamentals, build real projects, and understand the complete development stack.
 
-Going back to the basics doesn't mean starting from zero.
+<p>
+  <img src="https://img.shields.io/badge/React%20Native-Learning-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React Native">
+  <img src="https://img.shields.io/badge/TypeScript-Learning-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Node.js-Learning-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/MongoDB-Learning-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+</p>
 
-I already have experience building React Native applications. This
-project is about going deeper, refreshing concepts I may have forgotten,
-understanding **why** things work, and gaining more control over every
-part of the development process.
+<p>
+  <strong>Learn → Build → Break → Fix → Understand → Improve</strong>
+</p>
 
-The goal is simple:
+</div>
 
-**Learn → Build → Break → Fix → Understand → Improve**
+---
 
-------------------------------------------------------------------------
+## 🎯 The Goal
 
-## 🧠 What I Want to Master
+Going back to the basics **doesn't mean starting from zero**.
 
-### Frontend
+I already have experience building React Native applications. This project is about going deeper, refreshing concepts I may have forgotten, filling knowledge gaps, and gaining **full control over what I build**.
 
--   React fundamentals
--   React Native core components
--   Props and state
--   Hooks
--   Custom hooks
--   Context API
--   Navigation
--   Forms and validation
--   API integration
--   Reusable components
--   Responsive UI
--   Animations
--   Performance optimization
+I don't want to only know **how** to make something work.
 
-### Architecture
+I want to understand **why** it works.
 
--   Clean and scalable folder structure
--   Component architecture
--   Separation of concerns
--   State management
--   Error handling
--   Design patterns
--   System design
--   Application scalability
+### My goal
 
-### Backend
+> **Build a strong foundation and understand the complete development process — from a React Native component all the way to backend, database, testing, system design, and production.**
 
--   Node.js
--   Express.js
--   REST APIs
--   Authentication & authorization
--   Middleware
--   Validation
--   Error handling
--   File uploads
--   Real-time communication
+---
 
-### Database
+## 🧠 What I'm Learning
 
--   Database fundamentals
--   Data modeling
--   MongoDB
--   Queries and indexing
--   Relationships
--   Data validation
--   Performance and optimization
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Testing
+### ⚛️ Frontend
 
--   Unit testing
--   Integration testing
--   React Native testing
--   Jest
--   End-to-end testing
--   Detox
--   Debugging and test-driven thinking
+- React fundamentals
+- React Native core
+- Components
+- Props & State
+- Hooks
+- Custom Hooks
+- Context API
+- Navigation
+- Forms & validation
+- API integration
+- Reusable components
+- Animations
+- Performance
 
-### DevOps & Production
+</td>
+<td width="50%" valign="top">
 
--   Git & GitHub
--   Environment variables
--   Docker
--   CI/CD
--   Android builds
--   Release management
--   Deployment
--   Monitoring
--   Production debugging
+### 🏗️ Architecture
 
-------------------------------------------------------------------------
+- Scalable project structure
+- Component architecture
+- Separation of concerns
+- State management
+- Error handling
+- Design patterns
+- Clean architecture
+- System design
+- Scalability
 
-## 🏗️ Learning Approach
+</td>
+</tr>
 
-I don't want this to be a project where I only watch tutorials and copy
-code.
+<tr>
+<td valign="top">
 
-Each concept will be followed by practical work.
+### 🖥️ Backend
 
-``` text
-Understand the concept
-        ↓
-Build something small
-        ↓
-Use it in a real project
-        ↓
-Break it
-        ↓
-Debug it
-        ↓
-Improve it
-        ↓
-Document what I learned
-```
+- Node.js
+- Express.js
+- REST APIs
+- Authentication
+- Authorization
+- Middleware
+- Validation
+- Error handling
+- File uploads
+- Real-time communication
 
-------------------------------------------------------------------------
+</td>
+<td valign="top">
 
-## 📚 Roadmap
+### 🗄️ Database
 
-### Phase 1 --- JavaScript & React Fundamentals
+- Database fundamentals
+- MongoDB
+- Data modeling
+- Queries
+- Indexing
+- Relationships
+- Validation
+- Optimization
 
--   [ ] JavaScript fundamentals
--   [ ] ES6+
--   [ ] Closures
--   [ ] Promises & async/await
--   [ ] Array methods
--   [ ] Modules
--   [ ] React components
--   [ ] Props
--   [ ] State
--   [ ] Hooks
--   [ ] Rendering & re-rendering
+</td>
+</tr>
 
-### Phase 2 --- React Native Core
+<tr>
+<td valign="top">
 
--   [ ] View
--   [ ] Text
--   [ ] Image
--   [ ] Pressable
--   [ ] ScrollView
--   [ ] FlatList
--   [ ] Styling
--   [ ] Platform-specific code
--   [ ] Permissions
--   [ ] Storage
--   [ ] Native APIs
+### 🧪 Testing
 
-### Phase 3 --- Building Real Features
+- Unit testing
+- Component testing
+- Integration testing
+- API testing
+- End-to-end testing
+- Jest
+- Detox
+- Debugging
 
--   [ ] Authentication
--   [ ] Navigation
--   [ ] Forms
--   [ ] API integration
--   [ ] State management
--   [ ] Local storage
--   [ ] Error handling
--   [ ] Loading states
--   [ ] Offline handling
+</td>
+<td valign="top">
 
-### Phase 4 --- Backend & Database
+### ☁️ DevOps & Production
 
--   [ ] Node.js
--   [ ] Express.js
--   [ ] REST API
--   [ ] Authentication
--   [ ] MongoDB
--   [ ] Data modeling
--   [ ] Validation
--   [ ] Security
--   [ ] API testing
+- Git & GitHub
+- Environment variables
+- Docker
+- CI/CD
+- Android builds
+- iOS builds
+- Deployment
+- Monitoring
+- Production debugging
 
-### Phase 5 --- Architecture & System Design
+</td>
+</tr>
+</table>
 
--   [ ] Scalable folder structure
--   [ ] Clean architecture
--   [ ] Reusable services
--   [ ] State architecture
--   [ ] Caching
--   [ ] Pagination
--   [ ] Real-time systems
--   [ ] System design fundamentals
--   [ ] Scalability
-
-### Phase 6 --- Testing
-
--   [ ] Unit tests
--   [ ] Component tests
--   [ ] API tests
--   [ ] Integration tests
--   [ ] End-to-end tests
--   [ ] Jest
--   [ ] Detox
-
-### Phase 7 --- Performance & Production
-
--   [ ] React Native performance
--   [ ] Avoiding unnecessary re-renders
--   [ ] FlatList optimization
--   [ ] Memory usage
--   [ ] Network optimization
--   [ ] Android production builds
--   [ ] iOS production builds
--   [ ] CI/CD
--   [ ] Docker
--   [ ] Deployment
-
-------------------------------------------------------------------------
+---
 
 ## 🛠️ Tech Stack
 
-  Area              Technologies
-  ----------------- ------------------------------------
-  Mobile            React Native
-  Language          JavaScript / TypeScript
-  Frontend          React Native
-  Backend           Node.js / Express.js
-  Database          MongoDB
-  Testing           Jest / Detox
-  Version Control   Git / GitHub
-  DevOps            Docker / CI/CD
-  Architecture      Clean Architecture / System Design
+<div align="center">
 
-------------------------------------------------------------------------
+| Area | Technologies |
+|:---|:---|
+| 📱 Mobile | React Native |
+| 💻 Language | TypeScript / JavaScript |
+| ⚛️ Frontend | React / React Native |
+| 🖥️ Backend | Node.js / Express.js |
+| 🗄️ Database | MongoDB |
+| 🧪 Testing | Jest / Detox |
+| 🔧 Version Control | Git / GitHub |
+| 🐳 DevOps | Docker / CI/CD |
+| 🏛️ Architecture | Clean Architecture / System Design |
 
-## 📁 Project Structure
+</div>
 
-The structure may evolve as I learn better architecture.
+---
 
-``` text
-project/
-├── src/
-│   ├── components/
-│   ├── screens/
-│   ├── navigation/
-│   ├── hooks/
-│   ├── context/
-│   ├── services/
-│   ├── utils/
-│   ├── constants/
-│   └── types/
-│
-├── backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│   ├── services/
-│   └── utils/
-│
-├── tests/
-│
-├── android/
-├── ios/
-│
-├── package.json
-└── README.md
+## 🗺️ Roadmap
+
+### 01 — JavaScript & React Fundamentals
+
+- [ ] JavaScript fundamentals
+- [ ] ES6+
+- [ ] Objects & arrays
+- [ ] Array methods
+- [ ] Closures
+- [ ] Promises
+- [ ] Async / Await
+- [ ] Modules
+- [ ] React components
+- [ ] Props
+- [ ] State
+- [ ] Hooks
+- [ ] Rendering & re-rendering
+
+---
+
+### 02 — React Native Core
+
+- [ ] `View`
+- [ ] `Text`
+- [ ] `Image`
+- [ ] `Pressable`
+- [ ] `ScrollView`
+- [ ] `FlatList`
+- [ ] Styling
+- [ ] Platform-specific code
+- [ ] Permissions
+- [ ] Storage
+- [ ] Native APIs
+
+---
+
+### 03 — Build Real Features
+
+- [ ] Authentication
+- [ ] Navigation
+- [ ] Forms
+- [ ] API integration
+- [ ] State management
+- [ ] Local storage
+- [ ] Error handling
+- [ ] Loading states
+- [ ] Offline handling
+
+---
+
+### 04 — Backend & Database
+
+- [ ] Node.js
+- [ ] Express.js
+- [ ] REST APIs
+- [ ] Authentication
+- [ ] Authorization
+- [ ] MongoDB
+- [ ] Data modeling
+- [ ] Validation
+- [ ] Security
+- [ ] API testing
+
+---
+
+### 05 — Architecture & System Design
+
+- [ ] Scalable folder structure
+- [ ] Clean architecture
+- [ ] Reusable services
+- [ ] State architecture
+- [ ] Caching
+- [ ] Pagination
+- [ ] Real-time systems
+- [ ] System design fundamentals
+- [ ] Scalability
+
+---
+
+### 06 — Testing
+
+- [ ] Unit tests
+- [ ] Component tests
+- [ ] Integration tests
+- [ ] API tests
+- [ ] End-to-end tests
+- [ ] Jest
+- [ ] Detox
+- [ ] Test-driven thinking
+
+---
+
+### 07 — Performance & Production
+
+- [ ] React Native performance
+- [ ] Avoid unnecessary re-renders
+- [ ] FlatList optimization
+- [ ] Memory usage
+- [ ] Network optimization
+- [ ] Android production builds
+- [ ] iOS production builds
+- [ ] CI/CD
+- [ ] Docker
+- [ ] Deployment
+- [ ] Production debugging
+
+---
+
+## 🏗️ How I'm Learning
+
+I'm not trying to learn by simply watching tutorials and copying code.
+
+Every concept should become something I can **actually build and explain**.
+
+<div align="center">
+
+```text
+        📚 Learn
+           ↓
+        🧠 Understand
+           ↓
+        💻 Build
+           ↓
+        💥 Break
+           ↓
+        🐛 Debug
+           ↓
+        🔧 Fix
+           ↓
+        🚀 Improve
+           ↓
+        🔁 Repeat
 ```
 
-------------------------------------------------------------------------
+</div>
 
-## 💡 Why This Project?
+---
 
-Over time, developers forget things.
+## 🔬 The Bigger Picture
 
-Sometimes you know **how** to implement something but forget **why** it
-works that way.
+I want to connect every layer instead of learning each technology separately.
 
-This project is my way of going back to the foundation, filling
-knowledge gaps, and connecting everything together.
+<div align="center">
 
-I don't want to only be able to build an app.
+```text
+┌──────────────────────────────┐
+│       📱 React Native        │
+├──────────────────────────────┤
+│       ⚛️ React / State       │
+├──────────────────────────────┤
+│        🌐 API / HTTP         │
+├──────────────────────────────┤
+│      🖥️ Node / Express       │
+├──────────────────────────────┤
+│         🗄️ Database          │
+├──────────────────────────────┤
+│       🧪 Testing             │
+├──────────────────────────────┤
+│    🏗️ System Architecture    │
+├──────────────────────────────┤
+│      🐳 DevOps / CI/CD       │
+├──────────────────────────────┤
+│       ☁️ Production          │
+└──────────────────────────────┘
+```
 
-I want to understand what happens from:
+</div>
 
-**Component → State → API → Backend → Database → Testing → Deployment →
-Production**
-
-------------------------------------------------------------------------
+---
 
 ## 📈 Progress
 
-This README will be updated as the project grows.
+| Area | Status |
+|:---|:---:|
+| JavaScript | 🔄 In Progress |
+| React | 🔄 In Progress |
+| React Native | 🔄 In Progress |
+| Backend | ⏳ Upcoming |
+| Database | ⏳ Upcoming |
+| System Design | ⏳ Upcoming |
+| Testing | ⏳ Upcoming |
+| DevOps | ⏳ Upcoming |
+| Production | ⏳ Upcoming |
 
-  Area            Status
-  --------------- -------------
-  JavaScript      🔄 Learning
-  React           🔄 Learning
-  React Native    🔄 Learning
-  Backend         ⏳ Upcoming
-  Database        ⏳ Upcoming
-  System Design   ⏳ Upcoming
-  Testing         ⏳ Upcoming
-  DevOps          ⏳ Upcoming
-  Production      ⏳ Upcoming
+---
 
-------------------------------------------------------------------------
+## 💡 Why I'm Doing This
+
+Developers forget things.
+
+Sometimes you know **how** to implement something but forget the details or the reason behind it.
+
+That's normal.
+
+Instead of avoiding the gaps, I'm going back to the foundation and rebuilding my understanding.
+
+The objective isn't:
+
+> ❌ "I want to learn React Native."
+
+It's:
+
+> ✅ "I want to understand the entire system I am building."
+
+---
 
 ## 🔥 The Rule
 
-> **Don't just make it work. Understand why it works.**
+<div align="center">
 
-Going back to basics.
+### **Don't just make it work.**
+### **Understand why it works.**
 
-Building from the ground up.
+<br>
 
-And becoming a better developer, one concept at a time.
+**Back to basics.**  
+**Forward to mastery.** 🚀
 
-**Back to basics. Forward to mastery. 🚀**
+</div>
+
+---
+
+<div align="center">
+
+### 💻 Learn. Build. Break. Fix. Repeat.
+
+⭐ This repository will grow as my knowledge grows.
+
+</div>
