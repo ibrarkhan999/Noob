@@ -14,7 +14,7 @@ export default function New(bio:Bio) {
 <View style={styles.main}>
   <Text style={styles.txt}>i am {bio.name}</Text>
   <Text style={styles.txt}>i am {bio.age}yrs Old</Text>
-  <Text style={styles.txt}>i am {bio.education}</Text>
+  <Text style={styles.txt}>{bio.education}</Text>
 
 </View>
 
