@@ -1,6 +1,6 @@
 import { StatusBar, useColorScheme } from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
-import HomeScreen from './src/features/screens/HomeScreen';
+import AppNavigator from './src/navigations/AppNavigator';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -8,7 +8,7 @@ function App() {
   return (
     <SafeAreaProvider>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'}/>
-      <HomeScreen />
+      <AppNavigator />
     </SafeAreaProvider>
   );
 }
