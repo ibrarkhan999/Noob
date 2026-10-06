@@ -42,11 +42,9 @@ const TabNavigator = () => {
           if (route.name === 'Home') {
             return <Home size={size} color={color} />;
           }
-
           if (route.name === 'Profile') {
             return <User size={size} color={color} />;
           }
-
           return null;
         },
       })}
