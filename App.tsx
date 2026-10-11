@@ -1,23 +1,31 @@
-import { StatusBar, useColorScheme } from 'react-native';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { StyleSheet, View } from 'react-native'
+import React from 'react'
+import { SafeAreaView } from 'react-native-safe-area-context'
+import { NavigationContainer } from '@react-navigation/native'
+import AppNav from './src/navigations/AppNav'
 
-import AppNavigator from './src/navigations/AppNavigator';
-import { AuthProvider } from './src/contexts/AuthContext';
 
-function App() {
-  const isDarkMode = useColorScheme() === 'dark';
-
+export default function App() {
   return (
-    <SafeAreaProvider>
-      <AuthProvider>
-        <StatusBar
-          barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        />
+  <SafeAreaView style={styles.safeArea}>
 
-        <AppNavigator />
-      </AuthProvider>
-    </SafeAreaProvider>
-  );
+    <View style={styles.container}>
+      <NavigationContainer>
+        <AppNav/>
+      </NavigationContainer>
+    </View>
+  </SafeAreaView>
+  )
 }
 
-export default App;
+const styles = StyleSheet.create({
+  safeArea:{
+    flex:1,
+    backgroundColor:'green'
+  },
+  container:{
+    flex:1,
+    backgroundColor:'yellow'
+  }
+
+})
