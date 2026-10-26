@@ -1,31 +1,21 @@
-import { StyleSheet, View } from 'react-native'
-import React from 'react'
-import { SafeAreaView } from 'react-native-safe-area-context'
-import { NavigationContainer } from '@react-navigation/native'
-import AppNav from './src/navigations/AppNav'
 
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import AppNav from './src/navigations/AppNav';
 
-export default function App() {
+export default function App(): React.JSX.Element {
   return (
-  <SafeAreaView style={styles.safeArea}>
-
-    <View style={styles.container}>
-      <NavigationContainer>
-        <AppNav/>
-      </NavigationContainer>
-    </View>
-  </SafeAreaView>
-  )
+    <SafeAreaProvider>
+      <View style={styles.main}>
+        <AppNav />
+      </View>
+    </SafeAreaProvider>
+  );
 }
 
 const styles = StyleSheet.create({
-  safeArea:{
-    flex:1,
-    backgroundColor:'green'
+  main: {
+    flex: 1,
   },
-  container:{
-    flex:1,
-    backgroundColor:'yellow'
-  }
-
-})
+});

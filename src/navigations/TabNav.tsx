@@ -1,25 +1,34 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { TabParamList } from './types';
-import HomeScreen from '../features/home/screen/HomeScreen';
-import ProfileScreen from '../features/profile/screen/ProfileScreen';
+import { Ionicons } from '@react-native-vector-icons/ionicons';
+import HomeScreen from '../features/home/screens/HomeScreen';
+import ProfileScreen from '../features/profile/screens/ProfileScreen';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+
+export type TabParamList = {
+  Home: undefined;
+  Profile: undefined;
+};
 
 const Tab = createBottomTabNavigator<TabParamList>();
 
-export default function TabNav() {
+const TabNav = (): React.JSX.Element => {
+  const insets = useSafeAreaInsets();
   return (
     <Tab.Navigator
+      initialRouteName="Home"
       screenOptions={{
         headerShown: false,
-        tabBarActiveTintColor: '#4F46E5',
-        tabBarInactiveTintColor: '#94A3B8',
+        tabBarActiveTintColor: '#6366F1',
+        tabBarInactiveTintColor: '#9CA3AF',
         tabBarStyle: {
-          height: 65,
-          paddingBottom: 10,
+          height: 55 + insets.bottom,
           paddingTop: 8,
+          paddingBottom: Math.max(insets.bottom, 8),
           backgroundColor: '#FFFFFF',
           borderTopWidth: 1,
-          borderTopColor: '#E2E8F0',
+          borderTopColor: '#E5E7EB',
+          elevation: 8,
         },
         tabBarLabelStyle: {
           fontSize: 12,
@@ -27,8 +36,35 @@ export default function TabNav() {
         },
       }}
     >
-      <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="Profile" component={ProfileScreen} />
+      <Tab.Screen
+        name="Home"
+        component={HomeScreen}
+        options={{
+          tabBarIcon: ({ color, size, focused }) => (
+            <Ionicons
+              name={focused ? 'home' : 'home-outline'}
+              size={size}
+              color={color}
+            />
+          ),
+        }}
+      />
+
+      <Tab.Screen
+        name="Profile"
+        component={ProfileScreen}
+        options={{
+          tabBarIcon: ({ color, size, focused }) => (
+            <Ionicons
+              name={focused ? 'person' : 'person-outline'}
+              size={size}
+              color={color}
+            />
+          ),
+        }}
+      />
     </Tab.Navigator>
   );
-}
+};
+
+export default TabNav;

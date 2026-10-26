@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { View, Text } from 'react-native'
 import React from 'react'
 
 export default function ProfileScreen() {
@@ -8,5 +8,3 @@ export default function ProfileScreen() {
     </View>
   )
 }
-
-const styles = StyleSheet.create({})

@@ -1,49 +1,10 @@
-import React from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  TouchableOpacity,
-} from 'react-native';
-import { LoginScreenProps } from './types';
+import { View, Text } from 'react-native'
+import React from 'react'
 
-
-export default function LoginScreen({navigation}:LoginScreenProps) {
+export default function LoginScreen() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>LoginScreen</Text>
-
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate("Register")}
-      >
-        <Text style={styles.buttonText}>Go to Register Screen</Text>
-      </TouchableOpacity>
+    <View>
+      <Text>LoginScreen</Text>
     </View>
-  );
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 20,
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 20,
-  },
-  button: {
-    backgroundColor: '#2563EB',
-    paddingVertical: 12,
-    paddingHorizontal: 32,
-    borderRadius: 8,
-  },
-  buttonText: {
-    color: '#FFFFFF',
-    fontSize: 16,
-    fontWeight: '600',
-  },
-});
